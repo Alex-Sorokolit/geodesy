@@ -4,8 +4,16 @@
   gap: var(--card-gap);
 }
 .cardSetItem {
+  --card-item-count: 1;
   flex-basis: calc(
     (100% - (var(--card-item-count) - 1) * var(--card-gap)) /
       var(--card-item-count)
   );
+  /* @media screen and (min-width: 768px) {
+    --card-item-count: 2;
+  } */
+
+  @media screen and (min-width: 1200px) {
+    --card-item-count: 2;
+  }
 }

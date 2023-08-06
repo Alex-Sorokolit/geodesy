@@ -1,5 +1,18 @@
 .serviceCard {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+.serviceImage {
+  @media screen and (min-width: 768px) {
+    align-self: flex-start;
+    flex-direction: row;
+  }
 }
 .serviceText {
   display: block;
@@ -8,5 +21,6 @@
   font-weight: 800;
 }
 .serviceDescription {
+  padding: 15px;
   text-align: start;
 }

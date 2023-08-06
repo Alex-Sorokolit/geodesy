@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Container from "../Contaiter/Container";
-import logo from "../../images/hamburger.svg";
+import logo from "../../images/Triangle.svg";
 import Menu from "../Menu/Menu";
 
 const Header = () => {

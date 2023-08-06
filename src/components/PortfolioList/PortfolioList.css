@@ -1,12 +1,12 @@
-.cardSet {
+.portfolioSet {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--card-gap);
+  gap: var(--portfolio-gap);
+  justify-content: space-between;
 }
-.cardSetItem {
-  --card-item-count: 1;
+.portfolioSetItem {
   outline: 1px solid grey;
-
+  --card-item-count: 1;
   flex-basis: calc(
     (100% - (var(--card-item-count) - 1) * var(--card-gap)) /
       var(--card-item-count)
@@ -16,6 +16,6 @@
   } */
 
   @media screen and (min-width: 1200px) {
-    --card-item-count: 2;
+    --card-item-count: 4;
   }
 }

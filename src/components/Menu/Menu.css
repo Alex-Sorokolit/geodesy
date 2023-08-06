@@ -5,6 +5,6 @@
   padding: 15px;
 }
 
-.menu-item:hover {
+.menuItem:hover {
   color: var(--accent);
 }

@@ -1,3 +1,12 @@
 .serviceCard {
-  width: 320px;
+  display: flex;
+}
+.serviceText {
+  display: block;
+}
+.serviceTitle {
+  font-weight: 800;
+}
+.serviceDescription {
+  text-align: start;
 }

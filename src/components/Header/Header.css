@@ -1,0 +1,10 @@
+.header {
+  display: block;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+}
+.navigation {
+  display: flex;
+  gap: 20px;
+}

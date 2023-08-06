@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.menu-item:hover {
+  color: var(--accent);
+}

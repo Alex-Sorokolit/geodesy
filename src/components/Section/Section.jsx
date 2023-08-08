@@ -5,7 +5,7 @@ import Container from "../Contaiter/Container";
 const Section = ({ title, children }) => {
   return (
     <Container>
-      <h2>{title}</h2>
+      {title && <h2>{title}</h2>}
       {children}
     </Container>
   );

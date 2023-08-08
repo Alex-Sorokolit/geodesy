@@ -9,12 +9,6 @@
   /* } */
 }
 
-.portfolioImage {
-  /* flex-direction: row; */
-  /* @media screen and (min-width: 768px) { */
-  /* align-self: flex-start; */
-}
-
 .portfolioText {
   display: block;
 }

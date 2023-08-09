@@ -5,10 +5,12 @@ import css from "./Section.module.css";
 
 const Section = ({ title, children }) => {
   return (
-    <Container>
-      {title && <h2 className={css.sectionTitle}>{title}</h2>}
-      {children}
-    </Container>
+    <section>
+      <Container>
+        {title && <h2 className={css.sectionTitle}>{title}</h2>}
+        {children}
+      </Container>
+    </section>
   );
 };
 

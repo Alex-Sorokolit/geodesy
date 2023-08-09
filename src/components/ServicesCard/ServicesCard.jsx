@@ -1,21 +1,21 @@
 import React from "react";
-import "./ServiceCard.css";
+import css from "./ServiceCard.module.css";
 import defaultImage from "../../images/Photo_Service_Mob.jpg";
 
 const ServicesCard = ({
   seiviceItem: { title, description, imageUrl = defaultImage },
 }) => {
   return (
-    <div className="serviceCard">
+    <div className={css.serviceCard}>
       <img
-        className="serviceImage"
+        className={css.serviceImage}
         src={imageUrl}
         alt={title}
         width={208}
       ></img>
-      <div className="serviceText">
-        <p className="serviceTitle">{title}</p>
-        <p className="serviceDescription">{description}</p>
+      <div className={css.serviceText}>
+        <p className={css.serviceTitle}>{title}</p>
+        <p className={css.serviceDescription}>{description}</p>
       </div>
     </div>
   );

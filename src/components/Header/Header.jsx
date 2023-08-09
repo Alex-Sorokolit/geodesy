@@ -1,15 +1,15 @@
 import React from "react";
-import "./Header.css";
+import css from "./Header.module.css";
 import Container from "../Contaiter/Container";
 import logo from "../../images/Triangle.svg";
 import Menu from "../Menu/Menu";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className={css.header}>
       <Container>
-        <nav className="navigation">
-          <img src={logo} className="headerLogo" alt="logo" />
+        <nav className={css.navigation}>
+          <img src={logo} className={css.headerLogo} alt="logo" />
           <Menu />
         </nav>
       </Container>

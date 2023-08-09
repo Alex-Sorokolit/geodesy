@@ -1,9 +1,9 @@
 // Задає ширину контенту використовується в середині секції
 import React from "react";
-import "./Container.css";
+import css from "./Container.module.css";
 
 const Container = ({ children }) => {
-  return <div className="container">{children}</div>;
+  return <div className={css.container}>{children}</div>;
 };
 
 export default Container;

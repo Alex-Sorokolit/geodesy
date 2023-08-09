@@ -1,12 +1,12 @@
 import React from "react";
 import ServicesCard from "../ServicesCard/ServicesCard";
-import "./ServicesList.css";
+import css from "./ServicesList.module.css";
 
 const ServicesList = ({ data }) => {
   return (
-    <ul className="cardSet">
+    <ul className={css.cardSet}>
       {data.map((item) => (
-        <li key={item.title} className="cardSetItem">
+        <li key={item.title} className={css.cardSetItem}>
           <ServicesCard seiviceItem={item} />
         </li>
       ))}

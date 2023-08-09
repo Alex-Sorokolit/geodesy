@@ -9,6 +9,10 @@
   /* } */
 }
 
+.portfolioImage {
+  width: 100%;
+}
+
 .portfolioText {
   display: block;
 }

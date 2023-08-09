@@ -1,13 +1,13 @@
 import React from "react";
 import PortfolioCard from "../PortfolioCard/PortfolioCard";
-import "./PortfolioList.css";
+import css from "./PortfolioList.module.css";
 
 const PortfolioList = ({ data }) => {
   console.log(data);
   return (
-    <ul className="portfolioSet">
+    <ul className={css.portfolioSet}>
       {data.map((item) => (
-        <li key={item.title} className="portfolioSetItem">
+        <li key={item.title} className={css.portfolioSetItem}>
           <PortfolioCard portfolioItem={item} />
         </li>
       ))}

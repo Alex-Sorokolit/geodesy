@@ -1,18 +1,18 @@
 import React from "react";
-import "./Menu.css";
+import css from "./Menu.module.css";
 const Menu = () => {
   return (
-    <ul className="menu">
-      <li className="menuItem">
+    <ul className={css.menu}>
+      <li className={css.menuItem}>
         <a href="#">Головна</a>
       </li>
-      <li className="menuItem">
+      <li className={css.menuItem}>
         <a href="#">Послуги</a>
       </li>
-      <li className="menuItem">
+      <li className={css.menuItem}>
         <a href="#">Портфоліо</a>
       </li>
-      <li className="menuItem">
+      <li className={css.menuItem}>
         <a href="#">Контакти</a>
       </li>
     </ul>

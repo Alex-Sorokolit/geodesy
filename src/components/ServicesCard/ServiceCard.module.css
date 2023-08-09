@@ -8,16 +8,21 @@
     flex-direction: row;
   }
 }
+.serviceCard:hover .serviceTitle {
+  color: var(--accent);
+}
 .serviceImage {
   @media screen and (min-width: 768px) {
     align-self: flex-start;
     flex-direction: row;
   }
 }
+
 .serviceText {
   display: block;
 }
 .serviceTitle {
+  font-size: 20px;
   font-weight: 800;
 }
 .serviceDescription {

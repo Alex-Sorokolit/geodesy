@@ -1,0 +1,17 @@
+.contactsList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.contactsIcon {
+  margin-right: 10px;
+}
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactsItem:hover {
+  color: var(--accent);
+}

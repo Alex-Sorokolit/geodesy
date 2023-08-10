@@ -9,6 +9,13 @@
   /* flex-direction: row; */
   /* } */
 }
+.portfolioCard:hover {
+  cursor: pointer;
+}
+
+.portfolioCard:hover .portfolioTitle {
+  color: var(--accent);
+}
 
 .portfolioImage {
   width: 100%;
@@ -19,4 +26,5 @@
 }
 .portfolioTitle {
   font-weight: 800;
+  transition: color var(--time-animation) var(--cubic-bezier);
 }

@@ -6,7 +6,7 @@ const ServicesList = ({ data }) => {
   return (
     <ul className={css.cardSet}>
       {data.map((item) => (
-        <li key={item.title} className={css.cardSetItem}>
+        <li key={item.id} className={css.cardSetItem}>
           <ServicesCard seiviceItem={item} />
         </li>
       ))}

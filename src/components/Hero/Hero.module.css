@@ -9,10 +9,12 @@
 }
 
 .heroContent {
+  width: inherit;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  outline: 1px solid teal;
 }
 
 .heroTitle {
@@ -21,7 +23,7 @@
   color: #000;
   /* text-align: start; */
 
-  font-family: Rubik;
+  /* font-family: Rubik; */
   font-size: 100px;
   font-style: normal;
   font-weight: 600;
@@ -32,7 +34,7 @@
   color: var(--accent);
   background-color: rgba(0, 0, 0, 0.8);
   text-align: start;
-  margin: 0 50px;
+  /* margin: 0 50px; */
   padding: 8px;
 }
 .heroDescription:not(:last-child) {

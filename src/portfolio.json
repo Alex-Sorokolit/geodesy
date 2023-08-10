@@ -1,60 +1,72 @@
 [
   {
+    "id": 1,
     "title": "Зйомка ділянки для ландшафтного дизайну",
     "description": "",
     "category": "property"
   },
   {
+    "id": 2,
     "title": "Зйомка фасаду для визначення площі",
     "description": "",
     "category": "facade"
   },
   {
+    "id": 3,
     "title": "Зйомка ділянки ",
     "description": "",
     "category": "property"
   },
   {
+    "id": 4,
     "title": "Зйомка фасаду для визначення площі",
     "description": "",
     "category": "facade"
   },
   {
+    "id": 5,
     "title": "Відхилення від криволінійної поверхні",
     "description": "",
     "category": "analysis"
   },
   {
+    "id": 6,
     "title": "Знімання фасаду для визначення відхилень",
     "description": "",
     "category": "facade"
   },
   {
+    "id": 7,
     "title": "Зйомка стяжки на покрівлі",
     "description": "",
     "category": "analysis"
   },
   {
+    "id": 8,
     "title": "Об’єм котловану",
     "description": "",
     "category": "volumes"
   },
   {
+    "id": 9,
     "title": "Зйомка стяжки на покрівлі",
     "description": "",
     "category": "analysis"
   },
   {
+    "id": 10,
     "title": "Об’єм котловану",
     "description": "",
     "category": "volumes"
   },
   {
+    "id": 11,
     "title": "Об’єм сипучих матеріалів",
     "description": "",
     "category": "volumes"
   },
   {
+    "id": 12,
     "title": "Об’єм котловану",
     "description": "pit",
     "category": "volumes"

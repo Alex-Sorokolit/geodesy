@@ -8,6 +8,10 @@
     flex-direction: row;
   }
 }
+.serviceCard:hover {
+  cursor: pointer;
+}
+
 .serviceCard:hover .serviceTitle {
   color: var(--accent);
 }
@@ -24,6 +28,7 @@
 .serviceTitle {
   font-size: 20px;
   font-weight: 800;
+  transition: color var(--time-animation) var(--cubic-bezier);
 }
 .serviceDescription {
   padding: 15px;

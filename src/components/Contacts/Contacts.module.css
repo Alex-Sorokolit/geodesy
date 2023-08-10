@@ -10,6 +10,7 @@
 .contactsItem {
   display: flex;
   align-items: center;
+  transition: color var(--time-animation) var(--cubic-bezier);
 }
 
 .contactsItem:hover {

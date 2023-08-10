@@ -20,8 +20,8 @@
 .heroTitle {
   margin-bottom: 60px;
   font-size: 80px;
-  color: #000;
-  /* text-align: start; */
+  /* color: #000; */
+  text-align: start;
 
   /* font-family: Rubik; */
   font-size: 100px;

@@ -1,0 +1,11 @@
+.backBtn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.backBtn:hover {
+  color: var(--accent);
+}

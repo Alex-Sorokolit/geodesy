@@ -1,21 +1,24 @@
 import React from "react";
 import css from "./Menu.module.css";
+// Навігація по сайту
+import { NavLink } from "react-router-dom";
+
 const Menu = () => {
   return (
-    <ul className={css.menu}>
-      <li className={css.menuItem}>
-        <a href="#">Головна</a>
-      </li>
-      <li className={css.menuItem}>
-        <a href="#">Послуги</a>
-      </li>
-      <li className={css.menuItem}>
-        <a href="#">Портфоліо</a>
-      </li>
-      <li className={css.menuItem}>
-        <a href="#">Контакти</a>
-      </li>
-    </ul>
+    <nav className={css.navigation}>
+      <NavLink to="/" className={css.menuItem}>
+        Головна
+      </NavLink>
+      <NavLink to="/services" className={css.menuItem}>
+        Послуги
+      </NavLink>
+      <NavLink to="/portfolio" className={css.menuItem}>
+        Портфоліо
+      </NavLink>
+      <NavLink to="/contacts" className={css.menuItem}>
+        Контакти
+      </NavLink>
+    </nav>
   );
 };
 

@@ -1,13 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+// Навігація по сайту
+import { BrowserRouter } from "react-router-dom";
+// загальні стилі
 import "./index.css";
+// Компоненти
 import App from "./components/App/App";
 // import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

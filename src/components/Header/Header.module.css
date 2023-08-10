@@ -1,5 +1,7 @@
 .header {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   border: 1px solid red;
   background-color: black;
   color: white;
@@ -10,8 +12,4 @@
 }
 .headerLogo:hover {
   transform: rotate(0deg);
-}
-.navigation {
-  display: flex;
-  gap: 20px;
 }

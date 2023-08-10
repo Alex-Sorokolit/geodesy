@@ -6,14 +6,12 @@ import Menu from "../Menu/Menu";
 
 const Header = () => {
   return (
-    <div className={css.header}>
-      <Container>
-        <nav className={css.navigation}>
-          <img src={logo} className={css.headerLogo} alt="logo" />
-          <Menu />
-        </nav>
-      </Container>
-    </div>
+    <Container>
+      <div className={css.header}>
+        <img src={logo} className={css.headerLogo} alt="logo" />
+        <Menu />
+      </div>
+    </Container>
   );
 };
 

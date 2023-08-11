@@ -7,14 +7,14 @@ const Hero = () => {
       <Section>
         <div className={css.heroContent}>
           <h1 className={css.heroTitle}>Геодезичні вимірювання</h1>
-          <p className={css.heroDescription}>
+          {/* <p className={css.heroDescription}>
             Професійне виконання геодезичних вимірювань, ділянки, котловану,
             будинку чи конструкції.
           </p>
           <p className={css.heroDescription}>
             Аналіз поверхонь. Підрахунок об’ємів. Визначення відхилень.
             Оформлення виконавчої документації.
-          </p>
+          </p> */}
         </div>
       </Section>
     </div>

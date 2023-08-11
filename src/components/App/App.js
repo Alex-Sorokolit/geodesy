@@ -8,7 +8,7 @@ import ServicesPage from "../../pages/ServicesPage";
 import PortfolioPage from "../../pages/PortfolioPage";
 import ServiceDatails from "../../pages/ServiceDetails";
 import PortfolioDetails from "../../pages/PortfolioDetails";
-import ContactsPage from "../../pages/ContactsPage";
+// import ContactsPage from "../../pages/ContactsPage";
 import NotFound from "../../pages/NotFound";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="services/:id" element={<ServiceDatails />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="portfolio/:id" element={<PortfolioDetails />} />
-          <Route path="contacts" element={<ContactsPage />} />
+          {/* <Route path="contacts" element={<ContactsPage />} /> */}
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

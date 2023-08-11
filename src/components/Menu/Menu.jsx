@@ -10,14 +10,14 @@ const Menu = () => {
         Головна
       </NavLink>
       <NavLink to="/services" className={css.menuItem}>
-        Послуги
+        Види робіт
       </NavLink>
       <NavLink to="/portfolio" className={css.menuItem}>
         Портфоліо
       </NavLink>
-      <NavLink to="/contacts" className={css.menuItem}>
+      {/* <NavLink to="/contacts" className={css.menuItem}>
         Контакти
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 };

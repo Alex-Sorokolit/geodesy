@@ -1,9 +1,4 @@
-modelViewer {
-  cursor: grab;
-  display: flex;
-  height: 100vh;
+.canvasWrapper {
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  user-select: none;
+  height: 1000px;
 }

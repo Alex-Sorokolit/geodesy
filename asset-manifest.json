@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Alex-Sorokolit.github.io/geodesy/static/css/main.14a81a16.css",
+    "main.js": "/Alex-Sorokolit.github.io/geodesy/static/js/main.60b06cc9.js",
+    "static/media/HeroBG.jpg": "/Alex-Sorokolit.github.io/geodesy/static/media/HeroBG.825ace725de6e6decac0.jpg",
+    "index.html": "/Alex-Sorokolit.github.io/geodesy/index.html",
+    "static/media/Triangle.svg": "/Alex-Sorokolit.github.io/geodesy/static/media/Triangle.0c5d88ad033003ddd06e63c8d13e9dbf.svg",
+    "main.14a81a16.css.map": "/Alex-Sorokolit.github.io/geodesy/static/css/main.14a81a16.css.map",
+    "main.60b06cc9.js.map": "/Alex-Sorokolit.github.io/geodesy/static/js/main.60b06cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a81a16.css",
+    "static/js/main.60b06cc9.js"
+  ]
+}
